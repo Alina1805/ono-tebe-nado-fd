@@ -251,21 +251,22 @@ background-size: cover;
 .about__column_text{
     display: flex;
     flex-direction: column;
-    justify-content: center; /*тест*/
+    justify-content: center; 
 }
 .footer{
     margin-top: 186px;
     margin-left: 50px;
     margin-right: 50px;
-    align-items: center;
     grid-template-columns: 1fr auto 1fr;
     display: grid;
     gap: 186px;
     text-align: center;
+
     
 }
 .footer__menu{
     gap: 185px;
+   
     
 }
 .footer__menu-list{
@@ -274,11 +275,10 @@ background-size: cover;
     
 }
 .footer__social-list {
-    justify-self: start;
+   
     display: flex;
-    padding-right: 50px;
     list-style-type:none;
-    
+    gap: 48px;
     
 }
 .footer__social-icon{
@@ -288,4 +288,8 @@ background-size: cover;
 .address_footer{
     font-size: 18px;
     font-style: normal;
+    text-align: left;
+}
+.footer__social-list-item{
+    gap: 48px;
 }
