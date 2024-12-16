@@ -62,7 +62,7 @@
 .overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+    z-index: 0;
     inset: 0;
     
 }
@@ -91,7 +91,8 @@
 }
 
 .cover__description-text {
-    position: absolute; bottom: 62px;
+    position: absolute; 
+    
     color:#f5f5f5;
     padding-left: 78px;
     font-size: 22px;
@@ -99,7 +100,6 @@
     font-weight: 400;
     display: grid;
     word-spacing: 18.5px;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
     text-transform: uppercase;
 }
 
@@ -109,7 +109,6 @@
     line-height: 28px;
     font-weight: 500;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); 
     text-transform: uppercase;
     background: transparent;
     color:#f5f5f5;
@@ -179,7 +178,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 100%;
 }
 
