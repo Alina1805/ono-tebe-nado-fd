@@ -60,6 +60,7 @@
   font-size: 100px;
   padding: 165px 50px 113px;
   position: relative;
+  text-transform: uppercase;
   
 }
 .overlay {
@@ -73,6 +74,7 @@
     display: block;
     letter-spacing: 0.9cm;
     text-align: left;
+    
 
 }
 .aligned-text_center {
