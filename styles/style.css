@@ -87,7 +87,7 @@
     letter-spacing: 0em;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     gap: 50px;
     z-index: 1;
@@ -149,19 +149,19 @@
 }
 
 .card__title {
-    color: rgb(255, 255, 255);
-    text-decoration: underline; 
+    display: flex;
     justify-content: center;
-    text-align: start;
-    font-size: 22px;
     align-items: center;
+    position: relative;
     padding-top: 51px;
     padding-right: 40px;
     padding-left: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline; 
+    text-align: start;
+    font-size: 22px;
     text-transform: uppercase;
-    position: relative;
     z-index: 2;
-    display: flex;
   }
 
 .card__text {
@@ -252,10 +252,10 @@
 }
 
 .about__column_text {
-    justify-content: center; 
     display: flex;
-    flex-direction: column;
     gap: 24px;
+    justify-content: center; 
+    flex-direction: column;
 }
 
 .footer {
