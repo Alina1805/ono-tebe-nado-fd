@@ -143,12 +143,9 @@
     list-style: none;
     gap: 25px;
     padding: 0 23px;
-    position: relative;
-    min-height: 563px;
 }
 
-.lots__card-list-item {
-    position: relative;
+.lots__card-list-item { 
     flex: 1 0 334px;
 }
 
@@ -181,6 +178,10 @@
     
 }
 
+.card-link {
+    position: relative;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -188,6 +189,8 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    min-height: 564px;
+    
 }
 
 .card_type_film {
